@@ -21,4 +21,6 @@ Compile threeheap.hpp with a main.cpp that instantiates a Heap object, populate 
     my3heap.buildheap();
     my3heap.sort();
 
+You may also print the heap by calling print(). Please be wary of doing this with large data sets.
+
 threeheap is templated and should accept all data types, though only int has been tested at this time.

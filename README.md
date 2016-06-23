@@ -11,3 +11,14 @@ center child = (i*3)
 right child = (i*3) + 1
 
 With this structure we can traverse the entire array with fewer recursive calls to siftdown.
+
+# Using 3Heap
+
+Compile threeheap.hpp with a main.cpp that instantiates a Heap object, populate it, then call buildheap() and then sort():
+
+    Heap<int> my3heap;
+    // populate the heap with your data
+    my3heap.buildheap();
+    my3heap.sort();
+
+threeheap is templated and should accept all data types, though only int has been tested at this time.

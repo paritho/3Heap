@@ -1,7 +1,7 @@
 # 3Heap
 3Heap is based on a traditional heap data structure, but forces each node to have 3 children instead of 2.
 
-In selecting 3 children for each node, the aim is to reduce the height of the tree for use in sorting. The siftdown function is called fewer times than in a 2-chil, binary heap, and the sorting process is accomplished faster. 
+In selecting 3 children for each node, the aim is to reduce the height of the tree for use in sorting. The siftdown function is called fewer times than in a 2-child, binary heap, and the sorting process is accomplished faster. 
 
 # Finding Children Nodes
 Child nodes are located at the following positions where i equals the index of the parent:
